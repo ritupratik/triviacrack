@@ -35,7 +35,7 @@ async def on_message(message):
     if message.content == 'Yes':
         await client.send_message(message.channel,'Pay Rs150 on this code OR click on this link to pay-https://p-y.tm/u3Ar-u0 and give screenshot in #:euro:ᴘᴀʏ-ᴘʀᴏᴏғ channel..!!..PLEASE type-"Done" once you have done payment')
     if message.content == 'Help':
-        await client.send_message(message.channel,'hello..this bot helps you to buy our access for answers of all trivia  just type-" Buy"')
+        await client.send_message(message.channel,'Hello..this bot helps you to buy our access for answers of all trivia  just type-" Buy"')
     if message.content == 'Buy':
         await client.send_message(message.channel,'Thank you for contacting our subscription bot:blush: :blush:  Pay 150 RS and enjoy all games answer in this server and drop you payment screenshot in #:euro:ᴘᴀʏ-ᴘʀᴏᴏғ channel..!! Do you want(Yes/No)')
 client.run('NTQ3Mzk4NDQyMjkzNTI2NTQz.D02MUg.Kxsmmpjt_fKCGL3mu6w7Daxf0XA')
