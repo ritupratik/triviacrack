@@ -17,8 +17,10 @@ async def on_member_join(member):
     print('Recognised that a member called ' + member.name + ' joined')
     await client.send_message(member, 'Hello Guys...Welcome in TRivia Crack Thankyou for joining...If u want trivia answers from this group type-"₹help"')
     print('Sent message to ' + member.name)
+    
+@client.event
 async def on_ready():
-    await client.change_presence(game=Game(name='      '))
+    await client.change_presence(game=Game(name="subscription process||₹help", type = 3))
     print('Ready, Freddy') 
 
 
